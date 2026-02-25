@@ -144,3 +144,16 @@ desktop.ini
 !/.gitattributes
 !/.gitignore
 .DS_Store
+
+# Azure Developer CLI
+.azure/*/
+.azure/.env
+!.azure/.azure.json
+.azd/
+
+# Azure credentials
+*.azureauth
+*.publishsettings
+
+# AZD temporary files
+*.azd.tmp
